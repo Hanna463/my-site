@@ -1,0 +1,21 @@
+.main-head {
+	display: inline-block;
+}
+.main-picture {
+	box-sizing: border-box;
+	justify-content: center;
+	
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+} 
+.color-pasta {
+	width: 602px;
+    height: 615px;
+    border-radius: 300px;
+}
