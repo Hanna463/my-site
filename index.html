@@ -2,27 +2,32 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Homemade Pasta</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
 	<header>
-        <a href="#info" title="Information about Pasta">Info</a>
-	    <a href="#your-color">Your Color</a>
-	    <a href="#price">Price</a>
-	    <a href="#recipe">Pecipe</a>
-	    <a href="#contacts">Contacts</a>
+        <ul class="menu">
+            <li><a href="#info" title="Information about Pasta">Info</a></li>
+	        <li><a href="#your-color">Your Color</a></li>
+	        <li><a href="#price">Price</a></li>
+	        <li><a href="#recipe">Pecipe</a></li>
+	        <li><a href="#contacts">Contacts</a></li>
+        </ul>
 	</header>
-	<div class="basket">
-	    <p><a href="#"><img src="img/basket.png" width="50" height="50" alt="Basket"></a></p>
-    </div>
-    <div class="main-picture">
-    	<p><img src="img/main-picture.png"></p>
-    </div>
+    <banner>
+	    <div class="basket">
+	        <a href="#"><img src="img/basket.png" alt="Basket" width="50 px" height="50px"></a>
+        </div>
+        <div class="main-picture">
+            <img src="img/main-picture.png" >
+        </div>
+    </banner>
     <div class="information">
         <a name="info"></a>
         <p class="story">Traditionally, the word "pasta" refers to the so-called pasta, which is prepared from a mixture of wheat flour and water (or flour, water and eggs), as well as dishes from these products. Recently, a paste of exotic flour, chickpea, buckwheat, rye, barley, and coarse wheat flour and bran, has become popular. There are fresh and dry pasta, egg and water cooked, large and small in size, as well as colored pasta. tinted, for example, spinach, carrots, beets, cuttlefish ink, saffron), horn paste (ie corrugated) and stuffed paste.</p>
-        <img src="img/different-pasta.png">
+        <img src="img/different-pasta.png" alt="Different kind of pasta">
     </div>
         <a name="your-color"></a>
     <div class = "circle"></div>
@@ -83,7 +88,7 @@
          	        <p><img src="img/menu.png" alt="icon-menu">Makes 6 servings</p>
          	        <p><img src="img/alarm.png" alt="icon-alarm">Total Time Prep/Total Time: 30 min.</p>
          	<h1 class="ingredients">Ingredients</h1>
-         	    <ul type="disk" class="list">
+         	    <ul class="list">
          	    	<li>1/2 pound bacon strips, chopped</li>
                     <li>1 package (16 ounces) fettuccine</li>
                     <li>1 small onion, finely chopped</li>
@@ -111,15 +116,15 @@
     <a name="contacts">
     <article>
         <h1 class="contacts">Contacts</h1>
-            <div class="image">
-                <p>For more information, please call:+380981234567</p>
-                <img src="img/phone.png" alt="phone">
-            </div>
-                <h3 class="between">OR</h3>
-                <div class="image">
-                    <p>Write to our email <a href="http://HomemadePasta@gmail.com">HomemadePasta</a></p>
-                    <img src="img/mail.png" alt="mail">
-            </div>
+        <div class="image">
+            <p>For more information, please call:+380981234567</p>
+            <img src="img/phone.png" alt="phone">
+        </div>
+        <h3 class="between">OR</h3>
+        <div class="image">
+            <p>Write to our email <a href="http://HomemadePasta@gmail.com">HomemadePasta</a></p>
+            <img src="img/mail.png" alt="mail">
+        </div>
     </article>
     <article>
         <h1 class="comment">Add a comment</h1>

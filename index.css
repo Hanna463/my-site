@@ -1,10 +1,64 @@
-.main-head {
-	display: inline-block;
+@import url('https://fonts.googleapis.com/css?family=Poppins|Slabo+27px&display=swap');
+
+body {
+    max-width: 980px;
+    margin: auto;
 }
-.main-picture {
-	box-sizing: border-box;
-	justify-content: center;
-	
+
+:root {
+    --accent-color: #1f1e08;
+    --main-color: #30302b;
+    font-family: 'Slabo 27px', serif;
+
+}
+header .menu {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    }
+header .menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    border-style: none;;
+    padding: 5px;
+}
+header .menu a:hover {
+    background: radial-gradient(circle, #dbdbcc 10px, transparent 45px);
+}
+@media (min-width:550px){
+    header {
+        display: flex;
+    }
+}
+header .menu {
+    flex: 1;
+}
+banner .basket {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+        }
+banner .main-picture img {
+    display: inline-block;
+    text-align: center;
+    min-height: 500px;
+    margin:0;
+  width: 600px;
+}
+.story {
+ float: left;
+  width: 50%;
+   size: 16px;
+   margin: 0;
+}
+.information img {
+    display: inline-block;
+    width: 300px;
+    overflow: auto;
 }
 .circle {
     width: 200px;
@@ -13,9 +67,23 @@
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
-} 
-.color-pasta {
-	width: 602px;
-    height: 615px;
-    border-radius: 300px;
+  margin: 50px;
+  overflow: auto;
+  }
+  .circle p {
+     float: left;
+     width: 50%;
+     size: 16px;
+     margin: 0;
+  }
+.price h1 {
+    text-align: center;
 }
+.color-pasta {
+    display: inline-block;
+    text-align: center;
+	width: 450px;
+    border-radius: 250px;
+
+}
+
