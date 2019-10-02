@@ -4,7 +4,6 @@ body {
     max-width: 980px;
     margin: auto;
 }
-
 :root {
     --accent-color: #1f1e08;
     --main-color: #30302b;
@@ -37,23 +36,28 @@ header .menu a:hover {
 header .menu {
     flex: 1;
 }
-banner .basket {
+banner .basket img {
     display: flex;
+    align-items: flex-end;
     justify-content: flex-end;
-    margin-right: 40px;
+    width: 7%;
         }
 banner .main-picture img {
-    display: inline-block;
+    display: block;
+    width: 100%;
     text-align: center;
     min-height: 500px;
     margin:0;
-  width: 600px;
+    background-color: black;
 }
 .story {
- float: left;
-  width: 50%;
-   size: 16px;
-   margin: 0;
+    float: left;
+    width: 50%;
+    size: 16px;
+    margin: 0;
+}
+.information {
+    margin: 50px;
 }
 .information img {
     display: inline-block;
@@ -67,8 +71,8 @@ banner .main-picture img {
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
-  margin: 50px;
-  overflow: auto;
+    margin: 50px;
+    overflow: auto;
   }
   .circle p {
      float: left;
@@ -76,14 +80,73 @@ banner .main-picture img {
      size: 16px;
      margin: 0;
   }
-.price h1 {
+ h1, h2, h3 {
     text-align: center;
+    margin: 40px;
 }
 .color-pasta {
     display: inline-block;
+    width: 50%;
     text-align: center;
-	width: 450px;
-    border-radius: 250px;
+    border-radius: 50%;
+    overflow: auto
+}
+article .number {
 
 }
+.recipe p {
+    display: inline-block;
+    align-items: center;
+    justify-content:center;
+    size:24px;
+}
+.recipe img {
+    width: 26px;
+    margin: 10px;
+}
+.carbonara img {
+    display: inline-block;
+    width: 40%;
+    overflow: auto;
+    margin: 0;
+}
+.list {
+    float: left;
+    width: 50%;
+    size: 16px;
+    margin: 0;
+}
+article .name-pasta {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: row-reverse ;
+}
 
+article .image {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row-reverse;
+}
+article .image img {
+    width: 25px;
+    margin: 10px;
+}
+article input {
+    display: block;
+	margin-top: 11px;
+	width: 300px;
+	padding: 10px;
+	font-size: 13px;
+	border: 1px solid #333;
+    size: 15px;
+    }
+.last {
+    display: inline-block;
+	text-align: center;
+    width: 14px;
+}
+figure .icons {
+    display: inline-block;
+}
