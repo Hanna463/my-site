@@ -122,7 +122,9 @@ article .name-pasta {
     justify-content: flex-end;
     flex-direction: row-reverse ;
 }
-
+.directions ol {
+font-size: 26px;
+}
 article .image {
     display: flex;
     align-items: center;
