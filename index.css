@@ -143,10 +143,17 @@ article input {
     size: 15px;
     }
 .last {
-    display: inline-block;
-	text-align: center;
-    width: 14px;
+    float: left;
+    padding-bottom: 10px;
+    position: relative;
+    list-style: none;
+    margin-right: 5px;
 }
 figure .icons {
-    display: inline-block;
+    float: left;
+    position: relative;
+    text-align: center;
+    list-style: none;
+    margin-right: 19px;
+
 }
