@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Homemade Pasta</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
+    <script src="js/index.js"></script>
 </head>
 <body>
 	<header>
@@ -15,12 +16,12 @@
 	        <li><a href="#recipe">Pecipe</a></li>
 	        <li><a href="#contacts">Contacts</a></li>
         </ul>
-	</header>
-    <banner>
-	    <div class="basket">
+        <div class="basket">
 	        <a href="#"><img src="img/basket.png" alt="Basket" ></a>
         </div>
-        <div class="main-picture">
+	</header>
+    <banner>
+	    <div class="main-picture">
             <img src="img/main-picture.png" >
         </div>
     </banner>
@@ -30,27 +31,32 @@
         <img src="img/different-pasta.png" alt="Different kind of pasta">
     </div>
         <a name="your-color"></a>
-    <div class = "circle"></div>
-        <p>You choose the color and we make it with our natural dyes and a bit of love...</p>
+        <div class="medium">
+            <div class = "circle"></div>
+            <p>You choose the color and we make it with our natural dyes and a bit of love...</p>
+        </div>
     <article class="price">
-        <a name="price"></a>
-         	<h1>Price</h1>
-         	    <img src="img/color-pasta.jpg" class="color-pasta">
-         	<div class="number">
-         	    <p><a href="#first"><img src="img/first.png" alt="first" ></a></p>
-         	</div>
-         	<div class="number">
-               <p><a href="#second"><img src="img/second.png" alt="second" ></a></p>
+       <a name="price"></a>
+    	<h1>Price</h1>
+        <div class="color-pasta">
+            <div class="numbers">
+                <div class="number-1">
+         	        <p><a href="#first"><img src="img/first.png" alt="first" ></a></p>
+         	    </div>
+         	    <div class="number-2">
+                    <p><a href="#second"><img src="img/second.png" alt="second" ></a></p>
+                </div>
+                <div class="number-3">
+                    <p><a href="#third"><img src="img/third.png" alt="third" ></a></p>
+                </div>
+                <div class="number-4">
+                    <p><a href="#fourth"><img src="img/fourth.png" alt="fourth" ></a></p>
+                </div>
+                <div class="number-5">
+                    <p><a href="#fifth"><img src="img/fifth.png" alt="fifth" ></a></p>
+                </div>
             </div>
-            <div class="number">
-                <p><a href="#third"><img src="img/third.png" alt="third" ></a></p>
-            </div>
-            <div class="number">
-                <p><a href="#fourth"><img src="img/fourth.png" alt="fourth" ></a></p>
-            </div>
-            <div class="number">
-                <p><a href="#fifth"><img src="img/fifth.png" alt="fifth" ></a></p>
-            </div>
+        </div>
             <a name="first"></a>
             <div class="name-pasta">
                 <p>"Sunny Pasta" cost:  90 UAH/300 g. - contains turmeric powder</p>
@@ -83,12 +89,13 @@
     </article>
     <article class="recipe">
         <a name="recipe"></a>
-            <h1 class="name-pecipe">Recipe</h1>
+            <h1 class="name-recipe">Recipe</h1>
          	    <h2 class="second-name">Fettuccine Carbonara</h2>
          	        <p><img src="img/menu.png" alt="icon-menu">Makes 6 servings</p>
          	        <p><img src="img/alarm.png" alt="icon-alarm">Total Time Prep/Total Time: 30 min.</p>
          	<h1 class="ingredients">Ingredients</h1>
-         	    <ul class="list">
+         	<div class="carbonara">
+                <ul class="list">
          	    	<li>1/2 pound bacon strips, chopped</li>
                     <li>1 package (16 ounces) fettuccine</li>
                     <li>1 small onion, finely chopped</li>
@@ -101,11 +108,10 @@
                     <li> 1 tablespoon minced fresh parsley</li>
                     <li> Additional grated Romano cheese, optional</li>
                 </ul>
-            <div class="carbonara">
                 <img src="img/carbonara.png" alt="carbonara">
             </div>
                 <h2 class="directions">Directions</h2>
-                    <ol>
+                    <ol class="list-2">
                         <li>In a large skillet, cook bacon over medium heat until crisp, stirring occasionally. Remove with a slotted spoon; drain on paper towels. Discard drippings, reserving 1 tablespoon in pan.</li>
                         <li>Meanwhile, in a Dutch oven, cook fettuccine according to package directions. Drain; return to pan.</li>
                         <li>Add onion to drippings in skillet; cook and stir over medium heat 2-3 minutes or until tender. Add garlic; cook 1 minute longer. Reduce heat to medium-low.</li>
@@ -126,11 +132,11 @@
             <img src="img/mail.png" alt="mail">
         </div>
     </article>
-    <article>
+    <article class="bottom">
         <h1 class="comment">Add a comment</h1>
         <form method="POST" action="https://formspree.io/HomemadePasta@gmail.com">
             <label>Name
-                <input type="text" placeholder="Name" name="Name" >
+                <input type="text" placeholder="Name" name="Name">
             </label>
             <label>Email
                 <input type="email" placeholder="Email" name="Email" id="email">
@@ -143,8 +149,8 @@
                 <img src="img/camera.png" alt="photo">
             </div>
             <br>
-            <textarea rows="10" cols="120" name="text" placeholder="Add a comment"></textarea>
-                <input type="submit">
+            <textarea  name="text" placeholder="Add a comment"></textarea>
+           <button>Send</button>
         </form>
     <footer>
         <article>
