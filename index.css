@@ -101,10 +101,6 @@ banner .main-picture img {
     text-align: center;
     margin: 40px;
 }
-
-article .price {
- display: grid | inline-grid;
-}
 article .color-pasta {
 background-image: url(../img/color-pasta.jpg);
 min-height: 600px;
