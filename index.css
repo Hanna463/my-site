@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Slabo+27px&display=swap');
 
 body {
-    max-width: 980px;
+    max-width: 800px;
     margin: auto;
     background: linear-gradient(to bottom, #e6e222e0 1% ,#ebe467 , #fffb94, #ffffff );
 }
@@ -23,13 +23,14 @@ header .menu {
 header .menu a {
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--main-color);
+    color: whitesmoke;
     border-style: none;
+    background-color: black;
     padding: 5px;
 
 }
 header .menu a:hover {
-    background: radial-gradient(circle, #dbdbcc 10px, transparent 45px);
+    background: radial-gradient(circle, #e7e729 10px, transparent 45px);
 
 }
 @media (min-width:550px){
@@ -99,7 +100,10 @@ banner .main-picture img {
 }
  h1, h2, h3 {
     text-align: center;
-    margin: 40px;
+    margin-bottom: 20px;
+    text-decoration-line: none;
+    color: whitesmoke;
+    background: radial-gradient(circle, #000000 25%, transparent 70%);
 }
 article .color-pasta {
 background-image: url(../img/color-pasta.jpg);
@@ -107,7 +111,6 @@ min-height: 600px;
 background-size: cover;
 background-position: center;
 display: flex;
-border-radius: 50%;
 }
 article .number-1 {
 align-self: flex-start;
@@ -116,24 +119,28 @@ margin-top: 50px;
 }
 article .number-2 {
 align-self: flex-start;
-margin-left: 400px;
+margin-left: 471px;
 margin-top: 45px;
 }
 article .number-3 {
 align-self: center;
+margin-left: 40px;
 }
 article .number-4 {
 align-self: center;
-margin-left: -607px;
-margin-top: 355px;
+margin-left: -192px;
+margin-top: 610px;
 }
 article .number-5 {
 align-self: center;
-margin-left: 257px;
-margin-top: 600px
+margin-left: -544px;
+margin-top: 383px;
 }
 article .numbers {
 display: flex;
+}
+.price h1 {
+    margin: 60px 0 40px 0;
 }
 article .price .number-1 {
 display: flex;
@@ -145,7 +152,7 @@ align-self: flex-start;
 
 }
 .name-recipe {
-    margin-bottom: 0;
+    margin-top: 100px;
 }
 .recipe p {
     display: flex;
@@ -192,6 +199,8 @@ article .bottom {
     flex-direction: column;
     margin-bottom: 10px;
     font-size: 20px;
+    color: black;
+    text-decoration: none;
 }
 article .image {
     display: flex;
@@ -200,6 +209,14 @@ article .image {
     flex-direction: row-reverse;
     background: radial-gradient(circle, #dbdbcc 25%, transparent 70%);
    }
+.image a {
+    color: black;
+    text-decoration: none;
+}
+.bottom .comment {
+    text-decoration: none;
+}
+
 article form input {
     margin-top: 11px;
 	width: 300px;
@@ -220,9 +237,10 @@ form textarea {
     align-items: center;
     border: solid 1px;
     background: linear-gradient(to bottom, #cecb1ee0 1% ,#ebe467 , #fffb94, #ffffff );
-    margin: 30px;
+    margin: 10px 180px;
     width: 500px;
     height: 300px;
+
 }
 button {
   background:rgba(240, 224, 2, 0.959);
@@ -235,7 +253,7 @@ button {
   cursor:pointer;
   transition:800ms ease all;
   outline:none;
-  margin-left: 200px;
+  margin-left: 350px;
 }
 button:hover{
   background:#fff;
@@ -264,9 +282,17 @@ button:hover:before,button:hover:after{
 .footer {
 font-size: 1.5em;
 }
+
+article .icons {
+    display: flex;
+    margin: 0 60px;
+}
+article .footer {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
 figure {
 display: flex;
-justify-content: space-around;
+justify-content: center;
 }
-
-
