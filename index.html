@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Homemade Pasta</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
-    <script src="js/index.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
 	<header>
@@ -128,29 +128,26 @@
         </div>
         <h3 class="between">OR</h3>
         <div class="image">
-            <p>Write to our email <a href="http://HomemadePasta@gmail.com">HomemadePasta</p>
+            <p>Write to our email <a href="http://HomemadePasta@gmail.com">HomemadePasta</a></p>
             <img src="img/mail.png" alt="mail">
         </div>
     </article>
-    <article class="bottom">
-        <h1 class="comment">Add a comment</h1>
+    <article class="sendInfo">
+        <h1>Add a comment</h1>
         <form method="POST" action="https://formspree.io/HomemadePasta@gmail.com">
-            <label>Name
-                <input type="text" placeholder="Name" name="Name">
-            </label>
-            <label>Email
-                <input type="email" placeholder="Email" name="Email" id="email">
-            </label>
-            <br>
-            <div class="last">
-                <img src="img/comment.png" alt="comment">
+            <div class="form-group">
+               <label for="formInput">Name</label>
+               <input type="text" class="form-control" id="nameForm" placeholder="Name">
             </div>
-            <div class="last">
-                <img src="img/camera.png" alt="photo">
+              <div class="form-group">
+               <label for="formInput">Email address</label>
+               <input type="email" class="form-control" id="adressForm" placeholder="name@example.com">
             </div>
-            <br>
-            <textarea  name="text" placeholder="Add a comment"></textarea>
-           <button>Send</button>
+             <div class="form-group">
+               <label for="formTextarea"></label>
+               <textarea class="form-control" id="formTextarea" rows="3"></textarea>
+            </div>
+            <button>Send</button>
         </form>
     <footer>
         <article>
@@ -168,5 +165,9 @@
             </figure>
         </article>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

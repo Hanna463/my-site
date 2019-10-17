@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Slabo+27px&display=swap');
 
 body {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
     background: linear-gradient(to bottom, #e6e222e0 1% ,#ebe467 , #fffb94, #ffffff );
 }
@@ -9,7 +9,7 @@ body {
     --accent-color: #1f1e08;
     --main-color: #30302b;
     font-family: 'Slabo 27px', serif;
-
+    scroll-behavior: smooth;
 }
 header .menu {
     font-family: 'Poppins', sans-serif;
@@ -189,60 +189,37 @@ article .name-pasta {
 article .list-2{
 font-size: 20px;
 }
-article .bottom {
+article .image {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
+    align-items: center;
 }
-.bottom label {
+.image a {
+    margin-left: 10px;
+}
+form {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 10px;
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
 }
-article .image {
+article .sendInfo {
     display: flex;
-    align-items: center;
-    justify-content:center;
-    flex-direction: row-reverse;
-    background: radial-gradient(circle, #dbdbcc 25%, transparent 70%);
-   }
-.image a {
+    justify-content: center;
+}
+.form-group {
     color: black;
-    text-decoration: none;
+    width: 50%;
 }
-.bottom .comment {
-    text-decoration: none;
-}
-
-article form input {
+.article input {
     margin-top: 11px;
 	width: 300px;
 	padding: 10px;
 	font-size: 15px;
 	border: 1px solid #333;
     }
-.last {
-    float: left;
-    padding-bottom: 10px;
-    position: relative;
-    list-style: none;
-    margin-left: 40px;
-}
-form textarea {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 1px;
-    background: linear-gradient(to bottom, #cecb1ee0 1% ,#ebe467 , #fffb94, #ffffff );
-    margin: 10px 180px;
-    width: 500px;
-    height: 300px;
 
-}
-button {
+form button {
   background:rgba(240, 224, 2, 0.959);
   color:rgb(0, 0, 0);
   border:none;
@@ -253,7 +230,6 @@ button {
   cursor:pointer;
   transition:800ms ease all;
   outline:none;
-  margin-left: 350px;
 }
 button:hover{
   background:#fff;
@@ -291,6 +267,7 @@ article .footer {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
+    margin-top: 40px;
 }
 figure {
 display: flex;
