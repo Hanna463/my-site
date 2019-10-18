@@ -275,7 +275,7 @@ justify-content: center;
      width: auto;
     }
 }
-@media (min-width: 800px) and (max-width: 1280px) {
+@media (min-width: 720px) and (max-width: 1280px) {
     header nav {
       width: 100%;
     }
