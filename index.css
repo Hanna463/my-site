@@ -36,11 +36,14 @@ header .menu a:hover {
 @media (min-width:550px){
     header {
         display: flex;
+        background-color: black;
 
     }
 }
 header .menu {
     flex: 1;
+    align-items: center;
+    margin-top: 15px;
 }
 .basket {
     width: 50px;
@@ -50,6 +53,8 @@ header .menu {
     display: block;
     justify-content: flex-end;
     width: 100%;
+    background: radial-gradient(circle, #ffffff 10px, transparent 45px);
+
     }
 banner .main-picture img {
     display: block;
@@ -79,24 +84,13 @@ banner .main-picture img {
     justify-content: center;
     align-items: center;
 }
-.circle {
-    display: flex;
-    justify-content: flex-start;
-    width: 200px;
-    height: 200px;
-    background: yellow;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
-    overflow: auto;
-    margin-left: 60px;
-}
 .medium p {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     float: left;
     margin-left: 50px;
+    font-size: -webkit-xxx-large;
 }
  h1, h2, h3 {
     text-align: center;
@@ -108,7 +102,6 @@ banner .main-picture img {
 article .color-pasta {
 background-image: url(../img/color-pasta.jpg);
 min-height: 600px;
-background-size: cover;
 background-position: center;
 display: flex;
 }
