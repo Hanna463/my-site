@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Slabo+27px&display=swap');
 
 body {
-    max-width: 900px;
+    max-width: 980px;
     margin: auto;
     background: linear-gradient(to bottom, #e6e222e0 1% ,#ebe467 , #fffb94, #ffffff );
 }
@@ -37,7 +37,6 @@ header .menu a:hover {
     header {
         display: flex;
         background-color: black;
-
     }
 }
 header .menu {
@@ -52,10 +51,8 @@ header .menu {
 .basket img {
     display: block;
     justify-content: flex-end;
-    width: 100%;
     background: radial-gradient(circle, #ffffff 10px, transparent 45px);
-
-    }
+}
 banner .main-picture img {
     display: block;
     width: 100%;
