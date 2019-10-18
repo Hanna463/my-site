@@ -97,7 +97,7 @@ banner .main-picture img {
     background: radial-gradient(circle, #000000 25%, transparent 70%);
 }
 article .color-pasta {
-background-image: url(../img/color-pasta.jpg);
+background-image: url(../img/color-pasta.png);
 min-height: 600px;
 background-position: center;
 display: flex;
