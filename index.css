@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Slabo+27px&display=swap');
 
 body {
-    max-width: 1024px;
+    max-width: 980px;
     margin: auto;
     background: linear-gradient(to bottom, #e6e222e0 1% ,#ebe467 , #fffb94, #ffffff );
 }
@@ -64,7 +64,7 @@ banner .main-picture img {
 .story {
     float: left;
     width: 100%;
-    font-size: 20px
+    font-size: 20px;
 }
 .information img {
     width: 100%;
@@ -203,6 +203,7 @@ article .sendInfo {
 .form-group {
     color: black;
     width: 50%;
+    display: grid;
 }
 .article input {
     margin-top: 11px;
@@ -271,11 +272,10 @@ justify-content: center;
 @media only screen and (max-width: 766px) {
 #navbarNav{
      display: block;
-
      width: auto;
     }
 }
-@media (min-width: 720px) and (max-width: 1280px) {
+@media (min-width: 720px) and (max-width: 1410px) {
     header nav {
       width: 100%;
     }
