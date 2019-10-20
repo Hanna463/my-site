@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Slabo+27px&display=swap');
 
 body {
-    max-width: 980px;
+    max-width: 1224px;
     margin: auto;
     background: linear-gradient(to bottom, #e6e222e0 1% ,#ebe467 , #fffb94, #ffffff );
 }
@@ -39,9 +39,6 @@ header .menu a:hover {
         background-color: black;
     }
 }
-@media (max-width:450px){
-
-}
 header .menu {
     flex: 1;
     align-items: center;
@@ -64,33 +61,21 @@ banner .main-picture img {
     margin:0;
     background-color: black;
 }
-.information {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
 .story {
     float: left;
-    width: 400px;
-    font-size: 20px;
+    width: 100%;
+    font-size: 20px
 }
 .information img {
-    width: 400px;
+    width: 100%;
+    display: block;
     overflow: auto;
 }
 .medium {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.medium p {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    float: left;
+    display: block;
     margin-left: 50px;
-    font-size: -webkit-xxx-large;
+    font-size: 50px;
+    padding: 10px;
 }
  h1, h2, h3 {
     text-align: center;
@@ -107,27 +92,27 @@ display: flex;
 }
 article .number-1 {
 align-self: flex-start;
-margin-left: 80px;
-margin-top: 50px;
+margin-left: 2em;
+margin-top: 2em;
 }
 article .number-2 {
 align-self: flex-start;
-margin-left: 471px;
-margin-top: 45px;
+margin-left: 11em;
+margin-top: 4em;
 }
 article .number-3 {
 align-self: center;
-margin-left: 40px;
+margin-left: -3em;
 }
 article .number-4 {
 align-self: center;
-margin-left: -192px;
-margin-top: 610px;
+margin-left: -13em;
+margin-top: 36em;
 }
 article .number-5 {
 align-self: center;
-margin-left: -544px;
-margin-top: 383px;
+margin-left: -9em;
+margin-top: 9em;
 }
 article .numbers {
 display: flex;
@@ -153,25 +138,40 @@ align-self: flex-start;
     justify-content: center;
     margin: 0;
 }
-.recipe img {
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
 .recipe #text {
     justify-content: center;
     align-items: center;
 }
+@media (min-width: 600px){
+    .information p {
+        grid-template-columns: 1fr 1fr;
+        width: 50%;
+    }
+    .information img {
+        width: 50%;
+    }
+}
+@media (min-width: 630px){
+    .carbonara ul {
+        grid-template-columns: 1fr 1fr;
+        width: 50%;
+    }
+    .carbonara img {
+        width: 50%;
+    }
+}
 .carbonara {
-    display: flex;
-    justify-content: space-around;
-     width: 100%;
+    display: block;
 }
 .carbonara .list {
     font-size: 20px;
+     float: left;
 }
 .carbonara img {
-   width: 400px;
+   overflow: auto;
+   display: block;
+   margin-left: 20px;
+   padding: 10px;
 }
 article .name-pasta {
     display: flex;
@@ -254,7 +254,7 @@ font-size: 1.5em;
 
 article .icons {
     display: flex;
-    margin: 0 60px;
+    margin: 0 40px;
 }
 article .footer {
     text-decoration: none;
@@ -291,3 +291,64 @@ justify-content: center;
      width: 100%;
     }
   }
+  @media (min-width: 460px){
+      article .number-1 {
+align-self: flex-start;
+margin-left: 7em;
+margin-top: 2em;
+}
+  }
+  @media (min-width: 560px) {
+      article .number-1 {
+align-self: flex-start;
+margin-left: 6em;
+margin-top: 2em;
+}
+  }
+  @media (min-width: 631px) {
+      article .number-2 {
+align-self: flex-start;
+margin-left: 22em;
+margin-top: 2em;
+}
+article .number-5 {
+align-self: flex-start;
+margin-left: -22em;
+margin-top: 30em;
+}
+  }
+   @media (min-width: 700px) {
+      article .number-1 {
+align-self: flex-start;
+margin-left: 5em;
+margin-top: 2em;
+}
+  }
+   @media (min-width: 760px) {
+      article .number-1 {
+align-self: flex-start;
+margin-left: 7em;
+margin-top: 2em;
+}
+   }
+   @media (min-width: 800px) {
+      article .number-1 {
+align-self: flex-start;
+margin-left: 10em;
+margin-top: 3em;
+}
+   }
+   @media (min-width: 860px) {
+      article .number-3 {
+align-self: flex-start;
+margin-left: 8em;
+margin-top: 20em;
+}
+   }
+   @media (min-width: 860px) {
+      article .number-1 {
+align-self: flex-start;
+margin-left: 9em;
+margin-top: 3em;
+}
+   }
