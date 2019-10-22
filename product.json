@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "title": "Sunny Pasta",
+        "image": "pasta-firth.png",
+        "description": "We make it with turmeric powder",
+        "price":  "90 UAH/ 300 g"
+    },
+    {
+        "id": "2",
+        "title": "Popeye the Sailor",
+        "image": "pasta-second.png",
+        "description": "We make it with spinach leaves",
+        "price":  "85 UAH/ 300 g"
+    },
+    {
+        "id": "3",
+        "title": "Snow White",
+        "image": "pasta-third.png",
+        "description": "We make it with zucchini",
+        "price":  "90 UAH/ 300 g"
+    },
+    {
+        "id": "4",
+        "title": "Barbabietola",
+        "image": "pasta-fourth.png",
+        "description": "We make it with beet",
+        "price":  "80 UAH/ 300 g"
+    },
+    {
+        "id": "5",
+        "title": "Roger Rabbit",
+        "image": "pasta-fifth.png",
+        "description": "We make it with carrot",
+        "price": "85 UAH/ 300 g"
+    }
+]

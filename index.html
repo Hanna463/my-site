@@ -50,52 +50,91 @@
         <div class="color-pasta">
             <div class="numbers">
                 <div class="number-1">
-         	        <p><a href="#first"><img src="img/first.png" alt="first" ></a></p>
+         	        <p><img src="img/first.png" alt="first" ></p>
          	    </div>
          	    <div class="number-2">
-                    <p><a href="#second"><img src="img/second.png" alt="second" ></a></p>
+                    <p><img src="img/second.png" alt="second" ></p>
                 </div>
                 <div class="number-3">
-                    <p><a href="#third"><img src="img/third.png" alt="third" ></a></p>
+                    <p><img src="img/third.png" alt="third" ></p>
                 </div>
                 <div class="number-4">
-                    <p><a href="#fourth"><img src="img/fourth.png" alt="fourth" ></a></p>
+                    <p><img src="img/fourth.png" alt="fourth" ></p>
                 </div>
                 <div class="number-5">
-                    <p><a href="#fifth"><img src="img/fifth.png" alt="fifth" ></a></p>
+                    <p><img src="img/fifth.png" alt="fifth" ></p>
                 </div>
             </div>
         </div>
-            <a name="first"></a>
-            <div class="name-pasta">
-                <p>"Sunny Pasta" cost:  90 UAH/300 g. - contains turmeric powder</p>
-                <img src="img/first.png"  alt="first">
-            </div>
-            <a name="second"></a>
-                <div class="name-pasta">
-                    <p>"Popeye the Sailor" cost: 85 UAH/300 g - contains spinach leaves</p>
-                    <img src="img/second.png" alt="second">
-                </div>
-                <a name="third"></a>
-                <div class="name-pasta">
-                    <p>"Snow White" cost: 80 UAH/300 g - contains zucchini</p>
-                	<img src="img/third.png" alt="third">
-                </div>
-                <a name="fourth"></a>
-                <div class="name-pasta">
-                    <p>"Barbabietola" cost: 80UAH/300 g - contains beet</p>
-                    <img src="img/fourth.png" alt="fourth">
-                </div>
-                <a name="fifth"></a>
-                <div class="name-pasta">
-                    <p>"Roger Rabbit" cost: 85UAH/300 g - contains carrot</p>
-                    <img src="img/fifth.png" alt="fifth">
-                </div>
-                <div class="name-pasta">
-                    <p>And the other...</p>
-                	<img src="img/sixth.png" alt="sixth">
-                </div>
     </article>
+    <h2 class="card-header">View more</h2>
+    <div class="cards">
+    <div class="card" style="width: 18rem;">
+        <img src="img/pasta-first.png" class="card-img-top" alt="image of pasta">
+        <div class="card-body">
+            <h5 class="card-title">#1 Sunny Pasta</h5>
+            <p class="card-text">We make it with turmeric powder.</p>
+            <a href="#" class="btn btn-primary">Prise:90 UAH/ 300 g</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+       <img src="img/pasta-second.png" class="card-img-top" alt="image of pasta">
+       <div class="card-body">
+            <h5 class="card-title">#2 Popeye the Sailor</h5>
+            <p class="card-text">We make it with spinach leaves.</p>
+            <a href="#" class="btn btn-primary">Prise:85 UAH/ 300 g</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="img/pasta-third.png" class="card-img-top" alt="image of pasta">
+        <div class="card-body">
+            <h5 class="card-title">#3 Snow White</h5>
+            <p class="card-text">We make it with zucchini.</p>
+            <a href="#" class="btn btn-primary">Prise:90 UAH/ 300 g</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="img/pasta-fourth.png" class="card-img-top" alt="image of pasta">
+        <div class="card-body">
+            <h5 class="card-title">#4 Barbabietola</h5>
+            <p class="card-text">We make it with beet.</p>
+            <a href="#" class="btn btn-primary">Prise:80 UAH/ 300 g</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="img/pasta-fifth.png" class="card-img-top" alt="image of pasta">
+        <div class="card-body">
+            <h5 class="card-title">#5 Roger Rabbit</h5>
+            <p class="card-text">We make it with carrot.</p>
+            <a href="#" class="btn btn-primary">Prise:85 UAH/ 300 g</a>
+        </div>
+    </div>
+    </div>
+    <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Push for more info
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
     <article class="recipe">
         <a name="recipe"></a>
             <h1 class="name-recipe">Recipe</h1>
@@ -180,5 +219,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
+    <script src="js/modal.js"></script>
 </body>
 </html>
